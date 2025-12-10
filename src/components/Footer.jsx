@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FiPhone, FiMail } from "react-icons/fi";
 
 export default function Footer() {
@@ -102,7 +102,6 @@ export default function Footer() {
             {[
               { Icon: FaFacebookF, href: "https://facebook.com" },
               { Icon: FaTwitter, href: "https://twitter.com" },
-              { Icon: FaPinterestP, href: "https://pinterest.com" },
               { Icon: FaLinkedinIn, href: "https://linkedin.com" },
             ].map((s, idx) => (
               <motion.a

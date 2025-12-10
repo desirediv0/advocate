@@ -33,9 +33,9 @@ export default function AboutPage({ show }) {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="w-full h-[260px] sm:h-[360px] md:h-[480px] overflow-hidden shadow-xl border border-[#C5A25A]/20">
+            <div className="w-full h-[260px] sm:h-[360px] md:h-[580px] overflow-hidden shadow-xl border border-[#C5A25A]/20">
               <Image
-                src="/jitender-solanki.jpg"
+                src="/jitender-solanki.jpeg"
                 alt="Advocate Portrait"
                 width={800}
                 height={500}
@@ -56,25 +56,28 @@ export default function AboutPage({ show }) {
             </h3>
 
             <p className="mb-4 text-base sm:text-lg leading-relaxed text-black">
-              <span className="font-semibold text-[#C5A25A]">Jitender Solanki</span>, the founder of our chambers,
-              is a dedicated and result-oriented legal professional known for his sharp advocacy,
-              strategic insights, and unwavering commitment to justice. With years of experience in
-              handling <span className="font-semibold">civil, criminal, family, revenue, and corporate matters</span>,
-              he has earned a reputation for providing strong, clear, and dependable legal representation.
+            Indian Law Masters was founded with a clear mission—to deliver justice
+through fearless advocacy, strategic litigation, and unwavering commitment
+to clients’ rights. With nearly two decades of practice before the Hon’ble
+Supreme Court, Delhi High Court, District Courts, Tribunals, and various
+judicial forums, my journey as an advocate has taught me one truth: every
+client deserves honest advice, meticulous preparation, and representation
+that stands firm in the face of challenges.
             </p>
 
             <p className="mb-4 text-base sm:text-lg leading-relaxed text-black">
-              He believes that every client deserves not only competent advocacy but also respect,
-              empathy, and complete transparency. His approach combines legal excellence,
-              ethical practice, and a client-first mindset, making him a trusted name among individuals,
-              businesses, and institutions seeking reliable legal support.
+            Over the years, I have handled a wide spectrum of matters—Criminal, Civil,
+Matrimonial, Family, Property, Commercial, Corporate, and Constitutional
+disputes. This experience shaped my belief that true advocacy is rooted in
+integrity, preparation, and an unshakeable resolve to fight for justice.
             </p>
 
             <p className="text-base sm:text-lg leading-relaxed text-black">
-              Jitender Solanki’s commitment to fairness, justice, and public service forms
-              the foundation of our chambers. Under his leadership, we continue to deliver
-              comprehensive legal solutions with integrity, diligence, and professionalism — ensuring
-              that every client receives focused attention and the highest standard of representation.
+            Indian Law Masters operates as a full-service litigation chamber driven by a
+team of dedicated advocates who share these values. Together, we combine
+legal knowledge, courtroom experience, and research-driven strategy to
+secure the most favorable outcomes for individuals, businesses, and
+institutions.
             </p>
           </motion.div>
         </div>
