@@ -51,7 +51,7 @@ export default function Hero({ heading, subtitle, description, banner, mobileBan
             {show && <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
                 href="/contact"
-                className="inline-flex items-center px-6 py-3 bg-[#C5A25A] text-black font-semibold rounded-none hover:opacity-95"
+                className="inline-flex items-center px-6 py-3 bg-[#C5A25A] text-black font-semibold hover:opacity-95 rounded-lg"
               >
                 Book Consultation
               </a>

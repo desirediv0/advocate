@@ -184,7 +184,7 @@ export default function Court() {
                       <Dialog>
                         <DialogTrigger
                           aria-label="Open court resources dialog"
-                          className="px-6 py-2 bg-black text-white hover:bg-yellow-600 transition-all duration-300"
+                          className="px-6 py-2 bg-black text-white hover:bg-yellow-600 transition-all duration-300 rounded-lg"
                         >
                           Learn more →
                         </DialogTrigger>
@@ -211,7 +211,7 @@ export default function Court() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`Learn more about ${court.name}`}
-                        className="px-6 py-2 bg-black text-white hover:bg-yellow-600 transition-all duration-300"
+                        className="px-6 py-2 bg-black text-white hover:bg-yellow-600 transition-all duration-300 rounded-lg"
                       >
                         Learn more →
                       </a>
