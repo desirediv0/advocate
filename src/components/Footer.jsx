@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FiPhone, FiMail } from "react-icons/fi";
 
 export default function Footer() {
@@ -28,7 +29,7 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
         >
           <div className="flex items-start gap-4 mb-4">
-            <Image src={"/logo2.jpg"} alt="Indian Law Masters logo" width={70} height={70} />
+            <Image src={"/logo2.png"} alt="Indian Law Masters logo" width={70} height={70} />
             <div>
               <h2 className="text-2xl font-bold text-white uppercase">Indian Law Masters</h2>
               <p className="text-sm text-[#C5A25A] tracking-wide">
@@ -67,13 +68,13 @@ export default function Footer() {
           {/* Chamber Address */}
           <div className="mb-4">
             <p className="text-sm font-medium text-[#C5A25A] mb-2">Chamber Address</p>
-            <p className="text-xs text-gray-300 mb-2">Ch No. - 856, Dwarka District Court, Sector-10, Dwarka, New Delhi - 110075</p>
+            <p className="text-xs text-gray-300 mb-2">Ch.No.856, Lawyers Chambers, Dwarka Courts, New Delhi-75</p>
           </div>
 
           {/* Office Address */}
           <div className="mb-4">
             <p className="text-sm font-medium text-[#C5A25A] mb-2">Office Address</p>
-            <p className="text-xs text-gray-300 mb-2">Shop No. 2,3&4, Second Floor, Plot No.20, Manish Royal Plaza-II, MLU, Sector-10, Dwarka, New Delhi - 110075</p>
+            <p className="text-xs text-gray-300 mb-2">S-2, Second Floor, Plot No.20, MLU, Sector-10, Dwarka, New Delhi-75</p>
           </div>
 
           <ul className="space-y-2 text-sm">
@@ -101,7 +102,7 @@ export default function Footer() {
           <div className="flex gap-3 mt-5">
             {[
               { Icon: FaFacebookF, href: "https://facebook.com" },
-              { Icon: FaTwitter, href: "https://twitter.com" },
+              { Icon: FaXTwitter, href: "https://twitter.com" },
               { Icon: FaLinkedinIn, href: "https://linkedin.com" },
             ].map((s, idx) => (
               <motion.a

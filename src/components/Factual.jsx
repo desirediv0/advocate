@@ -136,7 +136,7 @@ const FAQAndConsultation = () => {
                 <button
                   type="submit"
                   disabled={submitting}
-                  className="w-full bg-[#C5A25A] text-black font-semibold py-3 hover:bg-[#b8912c] transition disabled:opacity-60"
+                  className="w-full bg-[#C5A25A] text-black font-semibold py-3 hover:bg-[#b8912c] transition disabled:opacity-60 rounded-lg"
                 >
                   {submitting ? "Sending..." : "SUBMIT REQUEST →"}
                 </button>

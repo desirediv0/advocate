@@ -49,7 +49,7 @@ const slides = [
 const DemoHero = () => {
   return (
     <div className="w-full relative">
-      <Carousel plugins={[Autoplay({ delay: 3500 })]}>
+      <Carousel plugins={[Autoplay({ delay: 3500 })]} opts={{ loop: true }}>
         <CarouselContent>
           {slides.map((slide, index) => (
             <CarouselItem key={index}>

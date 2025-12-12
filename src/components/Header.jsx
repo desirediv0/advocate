@@ -127,11 +127,11 @@ export default function Header() {
         <Link href="/" className="flex items-center space-x-2 md:space-x-3">
           <motion.div whileHover={{ scale: 1.05 }}>
             <Image
-              src="/logo2.jpg"
+              src="/logo2.png"
               width={50}
               height={50}
               alt="Law Firm Logo"
-              className="md:w-[60px] md:h-[60px] object-cover rounded-md border border-gray-300 shadow-sm"
+              className="md:w-[70px] md:h-[70px] object-cover"
             />
           </motion.div>
           <div>

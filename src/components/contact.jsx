@@ -172,7 +172,7 @@ export default function ContactPage() {
               <div className="space-y-3 text-gray-700">
                 <p className="flex items-start gap-2">
                   <MapPin className="text-[#C5A25A] mt-1 flex-shrink-0" size={18} />
-                  <span>Ch No. - 856, Dwarka District Court, Sector-10, Dwarka, New Delhi - 110075</span>
+                  <span>Ch.No.856, Lawyers Chambers, Dwarka Courts, New Delhi-75</span>
                 </p>
                 <p className="flex items-center gap-2">
                   <Phone className="text-[#C5A25A]" size={18} /> +91 98717 22270
@@ -189,7 +189,7 @@ export default function ContactPage() {
               <div className="space-y-3 text-gray-700">
                 <p className="flex items-start gap-2">
                   <MapPin className="text-[#C5A25A] mt-1 flex-shrink-0" size={18} />
-                  <span>Shop No. 2,3&4, Second Floor, Plot No.20, Manish Royal Plaza-II, MLU, Sector-10, Dwarka, New Delhi - 110075</span>
+                  <span>S-2, Second Floor, Plot No.20, MLU, Sector-10, Dwarka, New Delhi-75</span>
                 </p>
                 <p className="flex items-center gap-2">
                   <Phone className="text-[#C5A25A]" size={18} /> +91 98717 22270
