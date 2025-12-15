@@ -16,7 +16,7 @@ const FAQAndConsultation = () => {
     },
     {
       q: "What types of cases does your law firm handle?",
-      a: "Our firm handles civil, criminal, corporate, family, and property-related cases with experienced legal representation.",
+      a: "Ous firm handles — Criminal, Civil, Matrimonial, Family, Property, Commercial, Corporate, and Constitutional related matters with experienced legal representation.",
     },
     {
       q: "What are your opening hours?",
@@ -136,7 +136,7 @@ const FAQAndConsultation = () => {
                 <button
                   type="submit"
                   disabled={submitting}
-                  className="w-full bg-[#C5A25A] text-black font-semibold py-3 hover:bg-[#b8912c] transition disabled:opacity-60"
+                  className="w-full bg-[#C5A25A] text-black font-semibold py-3 hover:bg-[#b8912c] transition disabled:opacity-60 rounded-lg"
                 >
                   {submitting ? "Sending..." : "SUBMIT REQUEST →"}
                 </button>

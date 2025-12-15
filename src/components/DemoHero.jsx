@@ -49,7 +49,7 @@ const slides = [
 const DemoHero = () => {
   return (
     <div className="w-full relative">
-      <Carousel plugins={[Autoplay({ delay: 3500 })]}>
+      <Carousel plugins={[Autoplay({ delay: 3500 })]} opts={{ loop: true }}>
         <CarouselContent>
           {slides.map((slide, index) => (
             <CarouselItem key={index}>
@@ -92,7 +92,7 @@ const DemoHero = () => {
                       <Link
                         href="/contact"
                         aria-label={`Contact - ${slide.btn1}`}
-                        className={`${lato.className} inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-[#C5A25A] text-[#0B1C2A] font-medium shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition duration-200`}
+                        className={`${lato.className} inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-[#C5A25A] text-[#0B1C2A] font-medium shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition duration-200 rounded-lg`}
                       >
                         {slide.btn1}
                       </Link>
