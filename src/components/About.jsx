@@ -56,28 +56,28 @@ export default function AboutPage({ show }) {
             </h3>
 
             <p className="mb-4 text-base sm:text-lg leading-relaxed text-black">
-            Indian Law Masters was founded with a clear mission—to deliver justice
-through fearless advocacy, strategic litigation, and unwavering commitment
-to clients’ rights. With nearly two decades of practice before the Hon’ble
-Supreme Court, Delhi High Court, District Courts, Tribunals, and various
-judicial forums, my journey as an advocate has taught me one truth: every
-client deserves honest advice, meticulous preparation, and representation
-that stands firm in the face of challenges.
+              Indian Law Masters was founded with a clear mission—to deliver justice
+              through fearless advocacy, strategic litigation, and unwavering commitment
+              to clients’ rights. With nearly two decades of practice before the Hon’ble
+              Supreme Court, Delhi High Court, District Courts, Tribunals, and various
+              judicial forums, my journey as an advocate has taught me one truth: every
+              client deserves honest advice, meticulous preparation, and representation
+              that stands firm in the face of challenges.
             </p>
 
             <p className="mb-4 text-base sm:text-lg leading-relaxed text-black">
-            Over the years, I have handled a wide spectrum of matters—Criminal, Civil,
-Matrimonial, Family, Property, Commercial, Corporate, and Constitutional
-disputes. This experience shaped my belief that true advocacy is rooted in
-integrity, preparation, and an unshakeable resolve to fight for justice.
+              Over the years, I have handled a wide spectrum of matters—Criminal, Civil,
+              Matrimonial, Family, Property, Commercial, Corporate, and Constitutional
+              disputes. This experience shaped my belief that true advocacy is rooted in
+              integrity, preparation, and an unshakeable resolve to fight for justice.
             </p>
 
             <p className="text-base sm:text-lg leading-relaxed text-black">
-            Indian Law Masters operates as a full-service litigation chamber driven by a
-team of dedicated advocates who share these values. Together, we combine
-legal knowledge, courtroom experience, and research-driven strategy to
-secure the most favorable outcomes for individuals, businesses, and
-institutions.
+              Indian Law Masters operates as a full-service litigation chamber driven by a
+              team of dedicated advocates who share these values. Together, we combine
+              legal knowledge, courtroom experience, and research-driven strategy to
+              secure the most favorable outcomes for individuals, businesses, and
+              institutions.
             </p>
           </motion.div>
         </div>
@@ -134,7 +134,7 @@ institutions.
                 A Message from the Founder
               </h2>
               <p className="text-lg sm:text-xl leading-relaxed text-gray-700 italic mb-4">
-                "Advocacy is not just our profession — it is our duty. At Indian Law Masters, we fight every case with courage, preparation, and conviction, because justice for our clients is our greatest responsibility."
+                &quot;Advocacy is not just our profession — it is our duty. At Indian Law Masters, we fight every case with courage, preparation, and conviction, because justice for our clients is our greatest responsibility.&quot;
               </p>
               <p className="text-xl sm:text-2xl font-bold text-[#0b1526]">
                 JITENDER SOLANKI
