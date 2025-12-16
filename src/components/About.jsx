@@ -32,16 +32,19 @@ export default function AboutPage({ show }) {
             initial={{ opacity: 0, scale: 0.98 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
+            className="w-full flex justify-center"
           >
-            <div className="w-full h-[260px] sm:h-[360px] md:h-[580px] overflow-hidden shadow-xl border border-[#C5A25A]/20">
-              <Image
-                src="/jitender-solanki.jpeg"
-                alt="Advocate Portrait"
-                width={800}
-                height={500}
-                priority
-                className="w-full h-full object-cover object-top"
-              />
+            <div className="w-full max-w-md sm:max-w-lg md:max-w-xl bg-white rounded-xl shadow-2xl p-4 sm:p-6 border border-gray-100">
+              <div className="w-full aspect-[4/4] sm:aspect-[4/5]  overflow-hidden rounded-lg bg-white">
+                <Image
+                  src="/jitender-solanki.jpeg"
+                  alt="Advocate Portrait"
+                  width={1000}
+                  height={800}
+                  priority
+                  className="w-full h-full object-contain md:object-cover object-center"
+                />
+              </div>
             </div>
           </motion.div>
 
