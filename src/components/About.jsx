@@ -82,6 +82,70 @@ institutions.
           </motion.div>
         </div>
       </section>
+
+      {/* Grid Section 1: Our Philosophy & My Commitment */}
+      <section className="py-12 px-4 sm:px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Our Philosophy */}
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#0b1526] mb-4">
+                Our Philosophy
+              </h2>
+              <ul className="space-y-3 text-base sm:text-lg text-gray-700 mb-4">
+                <li>Justice is a right, not a privilege.</li>
+                <li>Every client deserves transparent, ethical, and dedicated representation.</li>
+                <li>Preparation and strategy form the backbone of effective litigation.</li>
+                <li>Collaborative teamwork strengthens our ability to deliver results.</li>
+              </ul>
+              <p className="text-base sm:text-lg leading-relaxed text-gray-700">
+                We are committed to providing high-quality legal services under one roof—rooted in professionalism, ethical practice, and client-focused solutions. Every case is examined with precision, prepared to the highest standards, and approached with courage, clarity, and compassion.
+              </p>
+            </div>
+
+            {/* My Commitment */}
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#0b1526] mb-4">
+                My Commitment
+              </h2>
+              <p className="text-lg text-[#C5A25A] font-semibold mb-4">
+                As Founder & Lead Counsel, I ensure that:
+              </p>
+              <ul className="space-y-3 text-base sm:text-lg text-gray-700 mb-4">
+                <li>Every brief receives thorough research and strategic depth.</li>
+                <li>Clients are guided with clarity, honesty, and timely advice.</li>
+                <li>The team works with discipline, coordination, and professional excellence.</li>
+                <li>Justice remains the central force guiding every action we take.</li>
+              </ul>
+              <p className="text-base sm:text-lg leading-relaxed text-gray-700 italic">
+                Indian Law Masters is not just a firm; it is a commitment to strengthening the justice system and empowering society through effective legal advocacy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Grid Section 2: A Message from the Founder */}
+      <section className="py-12 px-4 sm:px-6 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1">
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#0b1526] mb-4">
+                A Message from the Founder
+              </h2>
+              <p className="text-lg sm:text-xl leading-relaxed text-gray-700 italic mb-4">
+                "Advocacy is not just our profession — it is our duty. At Indian Law Masters, we fight every case with courage, preparation, and conviction, because justice for our clients is our greatest responsibility."
+              </p>
+              <p className="text-xl sm:text-2xl font-bold text-[#0b1526]">
+                JITENDER SOLANKI
+              </p>
+              <p className="text-base sm:text-lg text-[#C5A25A] font-semibold">
+                Advocate (LL.M.)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

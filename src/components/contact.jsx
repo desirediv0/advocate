@@ -16,24 +16,40 @@ export default function ContactPage() {
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       setStatus("error");
       return;
     }
     setStatus("loading");
-    setTimeout(() => {
-      console.log("Form submitted:", formData);
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
       setStatus("success");
       setFormData({
         name: "",
         email: "",
         phone: "",
-
         message: "",
       });
-    }, 1000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setStatus("error");
+    }
   };
 
   return (
@@ -54,7 +70,7 @@ export default function ContactPage() {
           <h1 className="text-4xl font-bold text-[#0b1526] mb-3">Contact Us</h1>
           <p className="text-gray-600 mb-8">
             Have a legal inquiry? Fill the form and we will review your message.
-            This demo logs data to the browser console (no network call).
+            You will receive a confirmation email after submission.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -149,7 +165,14 @@ export default function ContactPage() {
 
             {status === "error" && (
               <p className="text-red-500 mt-2">
-                Please fill in all required fields.
+                {formData.name && formData.email && formData.message 
+                  ? "Failed to send message. Please try again later." 
+                  : "Please fill in all required fields."}
+              </p>
+            )}
+            {status === "success" && (
+              <p className="text-green-600 mt-2">
+                Message sent successfully! Please check your email for confirmation.
               </p>
             )}
           </form>
