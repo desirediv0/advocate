@@ -5,7 +5,7 @@ import CountUp from "./CountUp"
 const Count = () => {
   const stats = [
     { to: 20, label: "Years Experience" },
-    { to: 5300, label: "Cases Won" },
+    { to: 4327, label: "Cases Won" },
     { to: 2006, label: "Founded" },
   ]
 
