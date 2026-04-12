@@ -126,7 +126,7 @@ export default function Footer() {
           <div>
             <a href="/privacy" className="hover:underline mr-3">Privacy</a>
             <a href="/terms" className="hover:underline mr-3">Terms</a>
-            <span className="text-gray-500">Designed by <a href="https://desirediv.com/" target="_blank" rel="noopener noreferrer" className="text-[#C5A25A] hover:underline">Desire Div</a></span>
+
           </div>
         </div>
       </div>
